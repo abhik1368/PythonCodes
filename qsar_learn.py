@@ -13,7 +13,7 @@ train, valid, test = cPickle.load(f)
 train_x, train_y = train
 test_x, test_y = test
  
-print "RANDPMFOREST"
+print "RANDOMFOREST"
 nclf = RandomForestClassifier( n_estimators=100, max_depth=5, random_state=0, n_jobs=1 )
 nclf = nclf.fit( train_x, train_y )
 preds = nclf.predict( test_x )
