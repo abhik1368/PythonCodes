@@ -1,5 +1,5 @@
 # Traverse a bipartite graph and compute the aa similarity of each node pair
-# Usage: python aa_tranverse.py [input file] [output file]
+# Usage: python LinkPred.py [input file] [output file]
 # The MIT License (MIT)
 # dataset used : edge list file inputdata.txt (dataset from drugbank of 727 drugs)
 # Copyright (c) 2014 <Abhik Seal>
